@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {  
+    "id": {
+      "type": "string",
+      "minLength":1    
+    },
+    "password": {
+      "type": "string",
+      "minLength":1    
+    },    
+    "name": {
+      "type": "string",
+      "minLength":1    
+    },
+    "type": {
+      "type": "string",
+      "enum": ["마스터", "운영관리자"]      
+    },
+    "status": {
+      "type": "string",
+      "enum": ["활동중", "활동정지"]      
+    },
+    "authIdx": {
+      "type": "number",
+      "minimum":0
+    },
+    "registerId": {
+      "type": "string",
+      "minLength":1
+    },
+    "registerName": {
+      "type": "string",
+      "minLength":1
+    }
+  },
+  "example": {
+  	"id":"asdf",
+    "password": "1234",
+    "name": "마스터",
+    "type": "마스터",
+    "status": "활동중",
+    "authIdx": 1,
+    "registerId":"sdf",
+    "registerName": "??asdfdasdfsf"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "cust_idx": {
+      "type": "number"
+    },
+    "deal_id": {
+      "type": "array",
+      "minLength": 0,
+      "items": {
+        "type": "number"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {  
+    "banner_exp_or_not": {
+      "type": "string",
+      "minLength":0    
+    },
+    "main_page_exp_or_not": {
+      "type": "string",
+      "minLength":0    
+    },
+    "valid_start_dt": {
+      "type": "string",
+      "minLength":0    
+    },
+    "valid_end_dt": {
+      "type": "string",
+      "minLength":0    
+    }
+  },
+  "example": {      
+    "prnt_cat_id": 1
+  }
+}

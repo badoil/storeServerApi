@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {  
+    "goods_idx": {
+      "type": "string",
+      "minLength":0    
+    },
+    "goods_id": {
+      "type": "string",
+      "minLength":0    
+    },
+    "suppl_code": {
+      "type": "string",
+      "minLength":0    
+    }
+  }
+}

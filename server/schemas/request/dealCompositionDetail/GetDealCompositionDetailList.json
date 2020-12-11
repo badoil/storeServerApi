@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {  
+      "id": {
+        "type": "number",
+        "minLength":1    
+      }
+    },
+    "example": {      
+      "id": 1
+    }
+  }

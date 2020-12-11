@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {  
+    "registerPoint": {
+      "type": "number",
+      "minimum":0    
+    },
+    "scoringPoint": {
+      "type": "number",
+      "minimum":0    
+    },
+    "registerId": {
+      "type": "string",
+      "minLength":1
+    }
+  },
+  "example": {
+    "registerPoint": 100,
+    "scoringPoint": 200,
+    "registerId": "asdfasf"
+  }
+}

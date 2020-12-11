@@ -1,0 +1,222 @@
+{
+    "type": "object",
+    "properties": {
+      "erp_code": {
+        "type": "number",
+        "minLength":1    
+      },
+      "onr_goods_code": {
+        "type": "number",
+        "minLength":1    
+      },
+      "suppl_goods_code": {
+        "type": "number",
+        "minLength":1    
+      },
+      "exp_seq": {
+        "type": "number",
+        "minLength":1    
+      },
+      "suppl_code": {
+        "type": "number",
+        "minLength":1    
+      },
+      "repr_cat": {
+        "type": "number",
+        "minLength":1    
+      },
+      "goods_name": {
+        "type": "string",
+        "minLength":1    
+      },
+      "goods_overview": {
+        "type": "string",
+        "minLength":1    
+      },
+      "goods_state_code": {
+        "type": "number",
+        "minLength":1    
+      },
+      "stock_qty": {
+        "type": "number",
+        "minLength":1    
+      },
+      "md_com": {
+        "type": "string",
+        "minLength":1    
+      },
+      "dets_info": {
+        "type": "string",
+        "minLength":1    
+      },
+      "orig_price": {
+        "type": "number",
+        "minLength":1    
+      },
+      "sales_unit_price": {
+        "type": "number",
+        "minLength":1    
+      },
+      "pur_price": {
+        "type": "number",
+        "minLength":1    
+      },
+      "repr_img": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_1": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_2": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_3": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_4": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_5": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_6": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_7": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_8": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_9": {
+        "type": "string",
+        "minLength":1    
+      },
+      "repr_timg": {
+        "type": "string",
+        "minLength":1
+      },
+      "add_timg_1": {
+        "type": "string",
+        "minLength":1
+      },
+      "add_timg_2": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_3": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_4": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_5": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_6": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_7": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_8": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_9": {
+        "type": "string",
+        "minLength":1    
+      },
+      "review_cnt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "pur_cnt": {
+        "type": "number",
+        "minLength": 0
+      },
+      "ns_cxn_cat": {
+        "type": "number",
+        "minLength": 0
+      },
+      "sabang_cxn_cat": {
+        "type": "number",
+        "minLength": 0
+      },
+      "first_create_user": {
+        "type": "string",
+        "minLength": 0
+      },
+      "first_create_dt_time": {
+        "type": "string",
+        "minLength": 0
+      },
+      "last_mod_user": {
+        "type": "string",
+        "minLength": 0
+      },
+      "last_mod_dt_time": {
+        "type": "string",
+        "minLength": 0
+      }
+    },
+    "example": {
+      "erp_code": 1,
+      "onr_goods_code": 1, 
+      "suppl_goods_code": 1,
+      "exp_seq": 1,
+      "suppl_code": 1,
+      "repr_cat": 1,
+      "goods_name": "[뉴트리디데이] 베이비 앤 키즈 프로폴리스 스프레이 대용량 500mg, 1개",
+      "goods_overview": "안국건강 베스트 1위상품",
+      "goods_state_code": 1,
+      "stock_qty": 500,
+      "md_com": "최고의 상품",
+      "dets_info": "프로폴리스",
+      "orig_price": 25000,
+      "sales_unit_price": 25000,
+      "pur_price": 25000,
+      "repr_img": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_4": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_5": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_6": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_7": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_8": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_9": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "repr_timg": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_4":"https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_5": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_6": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_7": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_8": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_9": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "review_cnt": 1200,
+      "pur_cnt": 450,
+      "ns_cxn_cat": 1,
+      "sabang_cxn_cat": 1, 
+      "first_create_user": "홍길동", 
+      "first_create_dt_time": "",
+      "last_mod_user":"홍길동",
+      "last_mod_dt_time": ""
+    }
+  }

@@ -1,0 +1,52 @@
+{
+  "type": "object",
+  "properties": {
+    "srch_kw": {
+      "type": "string",
+      "minLength": 0
+    },
+    "brand_name_array": {
+      "type": "array",
+      "minLength": 0,
+      "items": {
+        "type": "string"
+      }
+    },          
+    "ac_app_or_not": {
+      "type": "string",
+      "minLength": 0
+    },
+    "free_deliv_or_not": {
+      "type": "string",
+      "minLength": 0
+    },
+    "today_deliv_dl_time": {
+      "type": "string",
+      "minLength": 0
+    },
+    "minPrice": {
+      "type": "string",
+      "minLength": 0
+    },
+    "maxPrice": {
+      "type": "string",
+      "minLength": 0
+    },
+    "rating":{
+      "type": "string",
+      "minLength": 0
+    },
+    "srch_cnt": {
+      "type": "string",
+      "description":"검색개수"
+    },   
+    "page": {
+      "type": "number",
+      "description":"페이지"
+    },
+    "sort_keyword": {
+      "type": "string",
+      "description":"sort"
+    }     
+  }
+}

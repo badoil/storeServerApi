@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+      "cat_idx": {
+        "type": "number"
+      }
+    },
+    "required": ["cat_idx"]
+}

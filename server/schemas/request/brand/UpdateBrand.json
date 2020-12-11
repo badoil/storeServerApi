@@ -1,0 +1,47 @@
+{
+    "type": "object",
+    "properties": {
+        "mfr_id": {
+            "type": "string",
+            "minLength": 0
+        },
+        "brand_name": {
+            "type": "string",
+            "minLength": 0
+        },
+        "brand_overview": {
+            "type": "string",
+            "minLength": 0
+        },
+        "brand_dets_explan": {
+            "type": "string",
+            "minLength": 0
+        },
+        "brand_img": {
+            "type": "string",
+            "minLength":1
+        },
+        "first_create_user": {
+            "type": "string",
+            "minLength": 0
+        },
+        "last_mod_user": {
+            "type": "string",
+            "minLength": 0
+        },
+        "last_mod_dt_time": {
+            "type": "string",
+            "minLength": 0
+        }
+    },
+    "example": {
+        "mfr_id": "OOOO",
+        "brand_name": "아워홈",
+        "brand_overview": "조아요",
+        "brand_dets_explan": "너무조아요",
+        "brand_img": "이미지",
+        "first_create_user": "홍길동", 
+        "last_mod_user":"홍길동",
+        "last_mod_dt_time": ""
+    }
+}

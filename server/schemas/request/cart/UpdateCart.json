@@ -1,0 +1,34 @@
+{
+    "type": "object",
+    "properties": {
+        "deal_list" :{
+            "type": "array",
+            "minLength": 0,
+            "items": {
+              "type": "object",
+              "properties": {
+                "deal_id": {
+                    "type": "number",
+                    "minLength": 0
+                },
+                "deal_qty": {
+                    "type": "number",
+                    "minLength": 0
+                }
+              }
+            }
+        }
+    },
+    "example": {
+        "deal_list": [{
+            "deal_id": 2135,
+            "deal_qty": 1
+        },{
+            "deal_id": 2137,
+            "deal_qty": 2
+        },{
+            "deal_id": 2138,
+            "deal_qty": 3
+        }]
+    }
+  }

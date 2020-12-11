@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {  
+      "cust_idx": {
+        "type": "string",
+        "minLength":0   
+      }
+    },
+    "example": {      
+      "cust_idx": 1
+    }
+  }

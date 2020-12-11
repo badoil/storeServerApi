@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {  
+    "deliv_dest_idx": {
+      "type": "string",
+      "minLength":0    
+    },
+    "cust_idx": {
+      "type": "string",
+      "minLength":0    
+    }
+  }
+}

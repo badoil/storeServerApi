@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": { 
+    "order_idx": {
+      "type": "string",
+      "minLength":0    
+    },
+    "order_num": {
+      "type": "string",
+      "minLength":0    
+    },
+    "term_start_dt": {
+      "type": "string",
+      "minLength":0    
+    },
+    "term_end_dt": {
+      "type": "string",
+      "minLength":0    
+    }, 
+    "cust_id": {
+      "type": "string",
+      "minLength":0    
+    },
+    "srch_cnt": {
+      "type": "string",
+      "minLength":0    
+    },
+    "page": {
+      "type": "string",
+      "minLength":0    
+    }
+  },
+  "example": {      
+    "cust_idx": 1
+  }
+}

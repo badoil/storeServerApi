@@ -1,0 +1,82 @@
+{
+  "type": "object",  
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 0
+    },
+    "password": {
+      "type": "string",
+      "minLength": 0
+    },
+    "name": {
+      "type": "string",
+      "minLength": 0
+    },
+    "email": {
+      "type": "string",
+      "minLength": 0
+    },
+    "info_email_rcpt_or_not": {
+      "type": "string",
+      "minLength": 0
+    },
+    "mobile": {
+      "type": "string",
+      "minLength": 0
+    },
+    "sms_rcpt_or_not": {
+      "type": "string",
+      "minLength": 0
+    },
+    "zip_code": {
+      "type": "string",
+      "minLength": 0
+    },
+    "base_addr": {
+      "type": "string",
+      "minLength": 0
+    },
+    "dets_addr": {
+      "type": "string",
+      "minLength": 0
+    },
+    "ovs_resint_or_not": {
+      "type": "string",
+      "minLength": 0
+    },
+    "sex": {
+      "type": "string",
+      "minLength": 0
+    },
+    "brithday": {
+      "type": "string",
+      "minLength": 0
+    },
+    "sns_cxn_id": {
+      "type": "string",
+      "minLength": 0
+    },
+    "acct_classif": {
+      "type": "string",
+      "minLength": 0
+    }
+  },
+  "example": {
+    "cust_id": "test@naver.com",
+    "password": "123123",
+    "name": "test",
+    "email": "test@naver.com",
+    "info_email_rcpt_or_not": "true",
+    "mobile": "01039121987",
+    "sms_rcpt_or_not": "true",
+    "zip_code": "12323",
+    "base_addr": "기본 주소",
+    "dets_addr": "상세 주소",
+    "ovs_resint_or_not": "1",
+    "sex": "1",
+    "birthday": "19870224",
+    "sns_cxn_id": "test@naver.com",
+    "acct_classif": "test@naver.com"
+  }
+}

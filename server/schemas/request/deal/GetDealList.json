@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {  
+    "deal_idx": {
+      "type": "string",
+      "minLength":0   
+    },
+    "deal_id": {
+      "type": "string",
+      "minLength":0   
+    },
+    "repr_cat_id": {
+      "type": "string",
+      "minLength":0   
+    },
+    "exp_cat_idx": {
+      "type": "string",
+      "minLength":0    
+    },
+    "suppl_code": {
+      "type": "string",
+      "minLength":0   
+    },
+    "brand_name_array": {
+      "type": "array",
+      "minLength": 0,
+      "items": {
+        "type": "string"
+      }
+    },
+    "ac_tgt_goods_or_not": {
+      "type": "string",
+      "minLength":0   
+    },
+    "free_deliv_or_not": {
+      "type": "string",
+      "minLength":0   
+    },
+    "minPrice": {
+      "type": "string",
+      "minLength": 0
+    },
+    "maxPrice": {
+      "type": "string",
+      "minLength": 0
+    },
+    "rating": {
+      "type": "string",
+      "minLength":0   
+    },
+    "srch_cnt":{
+      "type":"number"
+    },
+    "sort_keyword": {
+      "type":"string"
+    },
+    "srch_orderby":{
+      "type":"string"
+    },
+    "srch_category": {
+      "type": "string",
+      "minLength":0   
+    },
+    "srch_seq":{
+      "type":"string"
+    },
+    "page": {
+      "type": "number"
+    }
+  },
+  "example": {      
+    "deal_idx": 1
+  }
+}

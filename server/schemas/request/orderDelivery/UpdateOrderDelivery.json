@@ -1,0 +1,84 @@
+{
+    "type": "object",
+    "properties": {
+          "order_num": {
+            "type": "number",
+            "minLength":0    
+          },
+          "orderer_name": {
+            "type": "string",
+            "minLength":0    
+          },
+          "orderer_mobi": {
+            "type": "string",
+            "minLength":0    
+          },
+          "orderer_email": {
+            "type": "string",
+            "minLength":0    
+          },
+          "rcpt_name": {
+            "type": "string",
+            "minLength":0    
+          },
+          "rcpt_mobi": {
+            "type": "string",
+            "minLength":0    
+          },
+          "rcpt_phone": {
+            "type": "string",
+            "minLength":0    
+          },
+          "rcpt_email": {
+            "type": "string",
+            "minLength":0    
+          },
+          "rcpt_zip_code": {
+            "type": "string",
+            "minLength":0    
+          },
+          "rcpt_base_addr": {
+            "type": "string",
+            "minLength":0    
+          },
+          "rcpt_dets_addr": {
+            "type": "string",
+            "minLength":0    
+          },
+          "deliv_rqmt_select_msg": {
+            "type": "string",
+            "minLength":0    
+          },
+          "deliv_rqmt_drt_msg": {
+            "type": "string",
+            "minLength":0    
+          },
+          "first_create_user": {
+            "type": "string",
+            "minLength": 0
+          },
+          "last_mod_user": {
+            "type": "string",
+            "minLength": 0
+          },
+          "last_mod_dt_time": {
+            "type": "string",
+            "minLength": 0
+          }
+    },
+    "example": {
+          "order_num": 1,
+          "orderer_name": "홍길동",
+          "orderer_mobi": "01012348909",
+          "orderer_email": "naver@naver.com",
+          "rcpt_name": "홍길동",
+          "rcpt_mobi": "01012348909",
+          "rcpt_phone": "023947345",
+          "rcpt_email": "naver@naver.com",
+          "rcpt_zip_code": "",
+          "rcpt_base_addr": "서울시",
+          "rcpt_dets_addr": "서울시 강서구",
+          "deliv_rqmt_select_msg": "",
+          "deliv_rqmt_drt_msg": "부재시 연락바랍니다."
+    }
+}

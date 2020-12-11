@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": { 
+      "order_idx": {
+        "type": "string",
+        "minLength":0    
+      },
+      "order_num": {
+        "type": "string",
+        "minLength":0    
+      }
+    }
+  }

@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {  
+      "popup_id": {
+        "type": "string",
+        "minLength":0    
+      }
+    }
+}

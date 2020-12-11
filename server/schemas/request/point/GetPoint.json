@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {  
+      "point_idx": {
+        "type": "string",
+        "minLength":0    
+      }
+    }
+}
